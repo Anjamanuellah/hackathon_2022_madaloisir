@@ -1,0 +1,89 @@
+body{
+    background-image: url("bgresa.png");
+}
+.container{
+    height: 80vh;
+    width: 100%;
+
+}
+.logo{
+    height: 25vh;
+}
+.nombre{
+    height: 10vh;
+    color: blue;
+    font-size: 20px;
+}
+.box-adulte{
+    height: 25vh;
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.box-enfant{
+    height: 20vh;
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+input{
+    text-transform: capitalize;
+    border-top: none;
+    border-left: none;
+    margin: 10px;
+}
+.input-info2-adulte, .input-info1-adulte{
+    margin-top: 40px;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.adulte-part1{
+    margin-top: 20px;
+    border: 2px solid grey;
+    text-align: center;
+    height: 200px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: aqua;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.enfant-part1{
+    margin-top: 20px;
+    border: 2px solid grey;
+    text-align: center;
+    height: 160px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: aqua;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.adulte-part2, .enfant-part2{
+    margin-top: 40px;
+}
+.bouton{
+    margin-top: 20px;
+}
+button{
+    font-size: 30px;
+    border-radius: 5px;
+    width: 200px;
+}
+button:hover{
+    color: brown;
+    background-color: blanchedalmond;
+}
+@media(max-width:1200px){
+    .box-adulte{
+        height: 40vh;
+    }
+    .adulte-part1{
+        height: 300px;
+    }
+    .nombre{
+        height: 20vh;
+    }
+}

@@ -1,0 +1,68 @@
+
+.container{
+    background-color: rgba(46, 38, 37, 0.582);
+    color: white;
+    height: 80vh;
+}
+.body{
+    background-color: white;
+    color:black;
+    height: 60%;
+    padding-bottom: 3em;
+}
+.resa{
+    padding:20px;
+    text-align: center;
+}
+header, .text-loisir{
+    padding-left: 20px;
+}
+
+.text-mada{
+    padding-top: 20px;
+    letter-spacing: 5px;
+    font-size: 4ch;
+}
+.text-loisir{
+    font-family: serif;
+    font-size: 6ch;
+}
+.text-accroche{
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+input{
+    border-radius: 20px;
+    height: 2.5em;
+    color: black;
+    padding-left: 10px;
+}
+
+.text-input{
+    height: 10em;
+}
+#message{
+    width: 80%;
+    height: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.button{
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    margin-top: 2.5em;
+    border-color: rgb(202, 36, 166);
+    background: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+}
+@media(max-width:950px) {
+    .btn{
+        margin-top: 2em;
+    }
+    input{
+        margin: 15px;
+    }
+}
